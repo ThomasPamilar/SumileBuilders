@@ -1,0 +1,100 @@
+.container{
+    margin: 0;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.header{
+    width:100%;
+    height:3rem;
+    background:#1b3961;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    
+    font-size: 20px;
+    padding-left: 2rem;
+    margin-top:1rem;
+}
+.backButton{
+    width:2rem;
+    height:2rem;
+    background-color: white;
+    padding:0.5rem;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.basic_info{
+    max-width: 60vw;
+    height:auto;
+    border:3px solid #1b3961;
+    margin-top: 5rem;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.pictureContainer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:#1b3961;
+    font-weight: 600;
+    font-size: 12px;
+    position: relative;
+    margin: 2rem;
+    
+}
+.pictureContainer p  {
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.pictureContainer p:hover{
+    border-radius: 10px;
+    border: 2px solid #1b3961;
+    margin-top: 6px;
+    
+}
+.pictureBox{
+    width: 7rem;
+    height: 7rem;
+}
+.textBoxContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.textBox{
+    background-color: #e7ecef;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 2.5vh 2vw;
+    color: #1b3961;
+    margin:0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.name{
+    width: 50%;
+}
+.bday, .contact, .rate{
+    width: 22%;
+}
+
+.address{
+    width:73%;
+}
+
+.started, .team{
+    width:30%;
+}
