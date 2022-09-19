@@ -85,14 +85,14 @@
     font-weight: 600;
 }
 .name{
-    width: 50%;
+    width: 48%;
 }
 .bday, .contact, .rate{
-    width: 22%;
+    width: 20%;
 }
 
 .address{
-    width:73%;
+    width:70%;
 }
 
 .started, .team{
